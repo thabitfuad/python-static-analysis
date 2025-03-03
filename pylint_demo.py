@@ -1,8 +1,8 @@
 """A simple demo of PyLint."""
 
-def sum_custom(a, b):
+def sum_custom(a_f, b_c):
     """Adds two integers."""
-    return a + b
+    return a_f + b_c
 
 
 def hello(name):
