@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - develop
+      - fixcode
   pull_request:
     branches:
       - main
