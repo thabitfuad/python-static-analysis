@@ -1,6 +1,8 @@
-def add(a: int, b: int) -> int:
+"""Demonstrates the use of type hints in Python code."""
+
+def add(a_f: int, b_c: int) -> int:
     """Adds two integers."""
-    return a + b
+    return a_f + b_c
 
 
 def greet(name: str) -> str:
@@ -8,11 +10,11 @@ def greet(name: str) -> str:
     return f"Hello, {name}!"
 
 
-def divide(a: int, b: int) -> float:
+def divide(abc: int, bcd: int) -> float:
     """Divides a by b and returns a float."""
-    if b == 0:
+    if bcd == 0:
         raise ValueError("Cannot divide by zero.")
-    return a / b
+    return abc / bcd
 
 
 # Function calls
